@@ -23,6 +23,6 @@ Scaling: Used MinMaxScaler to keep the data in a range the neural network could 
 
 Model Breakdown
 Architecture: Used Stacked LSTMs with Dropout (0.2) layers. Why? To make sure the model doesn't just "memorize" the past but actually learns to generalize for the future.
-
+![BTC Prediction Result](result.png)
 Optimization: Adam optimizer with MSE loss – simple, classic, and it works.
-’ve saved the final "trained brain" as btc_lstm_model.h5. You can skip the training and load it directly
+i’ve saved the final "trained brain" as btc_lstm_model.h5. You can skip the training and load it directly
